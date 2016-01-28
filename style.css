@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Amatic SC', cursive;
+}
+
+.header_ctnr {
+	background-color: #888;
+	height: 96px;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+
+.logo {
+	width: 10%;
+	overflow: none;
+	float: left;
+}
+
+.logo img {
+
+}
+
+.title {
+	margin-left: 30%;
+	float:left;
+}
+.m_menu {
+	display: none;
+}
+.navi{
+	float: right;
+}
+
+.navi ul {
+	list-style: none;
+}
+
+.navi li {
+	margin: 0 10px;
+	display: inline-block;
+	font-size: 40px;
+}
+
+.navi a {
+	color: white;
+	text-decoration: none;
+}
+
+.textbx1 {
+	width: 20%;
+	margin-left: 3.5%;
+	padding: 8px;
+	border-radius: 5px;
+	float:left;
+	border: dotted 1px #888;
+}
+
+.textbx1 h2 {
+	text-align: center;
+}
+
+.main_image {
+	width: 40%;
+	margin: 0 5% 2% 5%;
+	float: left;
+}
+
+.main_image img {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.textbx2 {
+	width: 20%;
+	float: left;
+	padding: 8px;
+	border-radius: 5px;
+	border: dotted 1px #888;
+}
+
+.textbx2 h2 {
+	text-align: center;
+}
+.spacer {
+	clear:both;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	padding-top: 8px;
+	bottom: 0;
+	clear:both;
+	background-color: #888;
+
+}
+
+footer p {
+	margin: 0;
+	text-align: center;
+}
+
+/*##########################################*/
+				/*< 788px*/
+/*#############################################*/
+
+
+@media all and (max-width: 788px){
+
+.title {
+	margin-left: 178px;
+    float: left;
+    width: 39%;
+}
+
+.title h1 {
+	margin: 5px 0 5px 0;
+	text-align: center;
+}
+
+.m_menu {
+	width: 16%;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: solid 1px white;
+	float: left;
+	display: block;
+}
+
+.m_menu p {
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+
+}
+
+.navi {
+	position: absolute;
+	margin-top: 96px;
+	width: 100%;
+	float: none;
+	background-color: #888;
+	display: none;
+}
+
+.navi ul {
+	margin: 0;
+	padding: 0;
+}
+.navi li {
+	text-align: center;
+	width: 100%;
+	display: block;
+	border-bottom: solid 1px white;
+}
+
+.content_container {
+	/*margin-top: 160px;*/
+
+}
+}
+
