@@ -111,20 +111,20 @@ footer p {
 @media all and (max-width: 788px){
 
 .title {
-	margin-left: 178px;
+	margin-left: 23%;
     float: left;
     width: 39%;
 }
 
 .title h1 {
-	margin: 5px 0 5px 0;
+	margin: 21px 0 5px 0;
 	text-align: center;
 }
 
 .m_menu {
 	width: 16%;
 	height: 35px;
-	margin-top: 10px;
+	margin: 25px 0 0 63px;
 	border-radius: 5px;
 	border: solid 1px white;
 	float: left;
@@ -134,7 +134,7 @@ footer p {
 .m_menu p {
 	text-align: center;
 	margin: 0;
-	font-size: 30px;
+	font-size: 1.7em;
 
 }
 
@@ -162,5 +162,36 @@ footer p {
 	/*margin-top: 160px;*/
 
 }
+}
+/*###########################################*/
+				/*<553px*/
+/*#############################################*/
+
+@media all and (max-width: 553px){
+.m_menu {
+	width: 10%;
+}
+
+.textbx1 {
+	width: 90%;
+	float: none;
+}
+
+.main_image {
+	margin-top: 10px;
+	width: 90%;
+	float: none;
+}
+
+.textbx2 {
+	width: 90%;
+	margin-left: 3.5%;
+	float: none;
+}
+
+footer {
+	position: fixed;
+}
+
 }
 
